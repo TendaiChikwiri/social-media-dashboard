@@ -26,7 +26,7 @@ Users should be able to:
 
 <img src="./screenshot/desktop.png"/>
 <img src="./screenshot/desktop-dark.png"/>
-<img src="./screenshot/mobile-dark.png" height="400" />
+<img src="./screenshot/mobile-dark.png" height="800" />
 
 ### Links
 
