@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Frontend Mentor | Social Media Dashboard</title>
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<header>
+			<ul class="navitem">
+				<li class="dashboard">Social Media Dashboard</li>
+				<li class="header-total">Total Followers: 23,004</li>
+			</ul>
+			<button onclick="toggleTheme()" class="navitem">
+				<span id="toggleButton" class="material-icons">light_mode</span>
+			</button>
+		</header>
+
+		<div class="overall-stats">
+
+			<div class="overall-card facebook card light">
+				<div class="color-line"></div>
+				<ul class="username">
+					<img src="./images/icon-facebook.svg" alt="">
+					<li>@nathanf</li>
+				</ul>
+				<ul class="followers">
+					<li class="folower-count">1987</li>
+					<li class="folower-label">Followers</li>
+				</ul>
+				<p class="change"><img src="./images/icon-up.svg" alt="">12 Today</p>
+			</div>
+
+			<div class="overall-card twitter card light">
+				<div class="color-line"></div>
+				<ul class="username">
+					<img src="./images/icon-twitter.svg" alt="">
+					<li>@nathanf</li>
+				</ul>
+				<ul class="followers">
+					<li class="folower-count">1044</li>
+					<li class="folower-label">Followers</li>
+				</ul>
+				<p class="change"><img src="./images/icon-up.svg" alt="">99 Today</p>
+			</div>
+
+			<div class="overall-card instagram card light">
+				<div class="color-line"></div>
+				<ul class="username">
+					<img src="./images/icon-instagram.svg" alt="">
+					<li>@realnathanf</li>
+				</ul>
+				<ul class="followers">
+					<li class="folower-count">11k</li>
+					<li class="folower-label">Followers</li>
+				</ul>
+				<p class="change"><img src="./images/icon-up.svg" alt="">1099 Today</p>
+			</div>
+
+			<div class="overall-card youtube card light">
+				<div class="color-line"></div>
+				<ul class="username">
+					<img src="./images/icon-youtube.svg" alt="">
+					<li>Nathan F.</li>
+				</ul>
+				<ul class="followers">
+					<li class="folower-count">8239</li>
+					<li class="folower-label">Subscribers</li>
+				</ul>
+				<p class="change"><img src="./images/icon-down.svg" alt=""><span class="red">144 Today</span></p>
+			</div>
+		</div>
+
+
+		<div class="today-section">
+			<h1 class="overview-today">Overview - Today</h1>
+
+			<div class="today-stats">
+				<div class="today-card card light">
+					<p class="align-left gray">Page Views</p>
+					<img class="align-right" src="./images/icon-facebook.svg" alt="">
+					<p class="align-left big-bold">87</p>
+					<p class="align-right green"><img src="./images/icon-up.svg" alt="">3%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Likes</p>
+					<img class="align-right" src="./images/icon-facebook.svg" alt="">
+					<p class="align-left big-bold">52</p>
+					<p class="align-right red"><img src="./images/icon-down.svg" alt="">2%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Likes</p>
+					<img class="align-right" src="./images/icon-twitter.svg" alt="">
+					<p class="align-left big-bold">5462</p>
+					<p class="align-right green"><img src="./images/icon-up.svg" alt="">2257%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Profile Views</p>
+					<img class="align-right" src="./images/icon-twitter.svg" alt="">
+					<p class="align-left big-bold">52k</p>
+					<p class="align-right green"><img src="./images/icon-up.svg" alt="">1375%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Retweets</p>
+					<img class="align-right" src="./images/icon-instagram.svg" alt="">
+					<p class="align-left big-bold">117</p>
+					<p class="align-right green"><img src="./images/icon-up.svg" alt="">303%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Likes</p>
+					<img class="align-right" src="./images/icon-instagram.svg" alt="">
+					<p class="align-left big-bold">507</p>
+					<p class="align-right  green"><img src="./images/icon-up.svg" alt="">553%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Likes</p>
+					<img class="align-right" src="./images/icon-youtube.svg" alt="">
+					<p class="align-left big-bold">107</p>
+					<p class="align-right red"><img src="./images/icon-down.svg" alt="">19%</p>
+				</div>
+
+				<div class="today-card card light">
+					<p class="align-left gray">Total Views</p>
+					<img class="align-right" src="./images/icon-youtube.svg" alt="">
+					<p class="align-left big-bold">1407</p>
+					<p class="align-right red"><img src="./images/icon-down.svg" alt="">12%</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="https://github.com/TendaiChikwiri" target="_blank">Tendai Chikwiri</a>.
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
